@@ -9,7 +9,7 @@ CrashlyticsFramework
 
 ## Usage via CocoaPods
 ``` ruby
-pod 'CrashlyticsFramework'
+pod 'CrashlyticsFrameworkOSX'
 ```
 
 *Note: the path you should use for the `run` script is `./Pods/CrashlyticsFrameworkOSX/Crashlytics.framework/run`*
