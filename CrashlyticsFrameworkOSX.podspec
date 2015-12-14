@@ -1,5 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "CrashlyticsFrameworkOSX"
+  s.deprecated_in_favor_of = "Crashlytics"
   s.version      = "3.0.8"
   s.summary      = "The most powerful, yet lightest weight crash reporting solution for iOS and Android developers. | Crashlytics"
   s.homepage     = "http://crashlytics.com"
