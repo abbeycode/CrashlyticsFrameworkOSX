@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
     :file => 'LICENSE'
   }
   s.author       = 'Crashlytics'
-  s.source       = { :git => "https://github.com/abbeycode/CrashlyticsFrameworkOSX.git", :tag => "3.0.8" }
+  s.source       = { :git => "https://github.com/abbeycode/CrashlyticsFrameworkOSX.git", :tag => s.version.to_s }
   s.platform     = :osx, '10.6'
   s.requires_arc = true
   s.osx.source_files = 'Crashlytics.framework/Versions/A/Headers/*.h'
